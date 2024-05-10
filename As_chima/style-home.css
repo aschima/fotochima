@@ -1,0 +1,85 @@
+header {
+	padding:20px;
+	background-color: #282828;
+	color: #fff;
+
+}
+
+.caixa {
+
+	height: 80px;
+	background-color: #0b0b0b;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 80px;
+	border-bottom: 1px solid ;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 380px;
+}
+
+
+nav a {
+	text-transform: uppercase;
+	color: #fcfcfc;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+section{
+	display: flex;
+}
+#banner1 {
+	width: 50%;
+}
+#banner2 {
+	width: 50%;
+}
+
+.principal {
+	background: rgb(0, 0, 0);
+	padding: 50px;
+	color: #fcfcfc;
+}
+
+.titulo-principal {
+	padding-left: 20px;
+}
+
+.titulo-centralizado {
+	text-align: center
+}
+
+p {
+	text-align: center;
+	color: #fcfcfc;
+}
+
+#missao {
+	font-size: 20px
+}
+
+em strong {
+	color: #41daf1;
+}
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #931111;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
